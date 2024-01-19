@@ -1,6 +1,6 @@
 package com.example.leetcode;
 
-import com.example.problems.RotateArray189;
+import com.example.problems.BestTimeToBuyAndSellStock122;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,7 +9,7 @@ public class LeetcodeApplication {
 
   public static void main(String[] args) {
     SpringApplication.run(LeetcodeApplication.class, args);
-    RotateArray189 removeDuplicatesFromSortedArray26 = new RotateArray189();
-    removeDuplicatesFromSortedArray26.rotate(new int[] {1, 2}, 2);
+    BestTimeToBuyAndSellStock122 removeDuplicatesFromSortedArray26 = new BestTimeToBuyAndSellStock122();
+    removeDuplicatesFromSortedArray26.maxProfit(new int[] {1,2,3,4,5});
   }
 }
