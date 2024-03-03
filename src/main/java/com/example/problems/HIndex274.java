@@ -3,7 +3,7 @@ package com.example.problems;
 import java.util.Arrays;
 
 /** */
-public class hIndex274 {
+public class HIndex274 {
   public int hIndex(int[] citations) {
     Arrays.sort(citations);
     int h = 0, i = citations.length - 1;

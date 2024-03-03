@@ -1,7 +1,7 @@
 package com.example.problems;
 
 /** */
-public class canCompleteCircuit134 {
+public class CanCompleteCircuit134 {
   public int canCompleteCircuit(int[] gas, int[] cost) {
     int n = gas.length;
     int sum = 0;
